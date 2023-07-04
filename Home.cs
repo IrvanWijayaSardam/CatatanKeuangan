@@ -157,5 +157,19 @@ namespace CatatanKeuangan
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnLaporan_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Form_Laporan fLaporan = new Form_Laporan();
+                fLaporan.Show();
+                this.Hide();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

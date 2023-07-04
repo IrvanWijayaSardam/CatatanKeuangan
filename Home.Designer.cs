@@ -47,6 +47,7 @@
             this.lbTotalSaldo = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtDeskripsi = new System.Windows.Forms.TextBox();
+            this.btnLaporan = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListTransaksi)).BeginInit();
             this.SuspendLayout();
             // 
@@ -183,7 +184,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(539, 702);
+            this.btnClear.Location = new System.Drawing.Point(539, 657);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(273, 50);
             this.btnClear.TabIndex = 16;
@@ -228,11 +229,22 @@
             this.txtDeskripsi.Size = new System.Drawing.Size(200, 60);
             this.txtDeskripsi.TabIndex = 19;
             // 
+            // btnLaporan
+            // 
+            this.btnLaporan.Location = new System.Drawing.Point(539, 741);
+            this.btnLaporan.Name = "btnLaporan";
+            this.btnLaporan.Size = new System.Drawing.Size(273, 50);
+            this.btnLaporan.TabIndex = 21;
+            this.btnLaporan.Text = "Laporan";
+            this.btnLaporan.UseVisualStyleBackColor = true;
+            this.btnLaporan.Click += new System.EventHandler(this.btnLaporan_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 769);
+            this.ClientSize = new System.Drawing.Size(832, 803);
+            this.Controls.Add(this.btnLaporan);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtDeskripsi);
             this.Controls.Add(this.lbTotalSaldo);
@@ -282,5 +294,6 @@
         private Label lbTotalSaldo;
         private Label label6;
         private TextBox txtDeskripsi;
+        private Button btnLaporan;
     }
 }
