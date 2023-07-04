@@ -67,13 +67,13 @@
             this.dgvListTransaksi.Location = new System.Drawing.Point(12, 56);
             this.dgvListTransaksi.Name = "dgvListTransaksi";
             this.dgvListTransaksi.RowTemplate.Height = 25;
-            this.dgvListTransaksi.Size = new System.Drawing.Size(506, 631);
+            this.dgvListTransaksi.Size = new System.Drawing.Size(506, 450);
             this.dgvListTransaksi.TabIndex = 1;
             this.dgvListTransaksi.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListTransaksi_CellClick);
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(541, 281);
+            this.btnInsert.Location = new System.Drawing.Point(535, 56);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(273, 73);
             this.btnInsert.TabIndex = 2;
@@ -83,7 +83,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(541, 377);
+            this.btnUpdate.Location = new System.Drawing.Point(535, 152);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(273, 73);
             this.btnUpdate.TabIndex = 3;
@@ -93,7 +93,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(541, 472);
+            this.btnDelete.Location = new System.Drawing.Point(535, 247);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(273, 73);
             this.btnDelete.TabIndex = 4;
@@ -103,7 +103,7 @@
             // 
             // btnBaru
             // 
-            this.btnBaru.Location = new System.Drawing.Point(541, 565);
+            this.btnBaru.Location = new System.Drawing.Point(535, 337);
             this.btnBaru.Name = "btnBaru";
             this.btnBaru.Size = new System.Drawing.Size(273, 73);
             this.btnBaru.TabIndex = 5;
@@ -114,7 +114,7 @@
             // txtId
             // 
             this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(614, 56);
+            this.txtId.Location = new System.Drawing.Point(972, 56);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(200, 23);
             this.txtId.TabIndex = 6;
@@ -122,7 +122,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(539, 59);
+            this.label2.Location = new System.Drawing.Point(897, 59);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(17, 15);
             this.label2.TabIndex = 7;
@@ -131,7 +131,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(539, 139);
+            this.label4.Location = new System.Drawing.Point(897, 139);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 15);
             this.label4.TabIndex = 11;
@@ -139,7 +139,7 @@
             // 
             // txtJumlahTrx
             // 
-            this.txtJumlahTrx.Location = new System.Drawing.Point(614, 136);
+            this.txtJumlahTrx.Location = new System.Drawing.Point(972, 136);
             this.txtJumlahTrx.Name = "txtJumlahTrx";
             this.txtJumlahTrx.Size = new System.Drawing.Size(200, 23);
             this.txtJumlahTrx.TabIndex = 10;
@@ -147,7 +147,7 @@
             // rbUangMasuk
             // 
             this.rbUangMasuk.AutoSize = true;
-            this.rbUangMasuk.Location = new System.Drawing.Point(541, 242);
+            this.rbUangMasuk.Location = new System.Drawing.Point(899, 242);
             this.rbUangMasuk.Name = "rbUangMasuk";
             this.rbUangMasuk.Size = new System.Drawing.Size(91, 19);
             this.rbUangMasuk.TabIndex = 12;
@@ -158,7 +158,7 @@
             // rbUangKeluar
             // 
             this.rbUangKeluar.AutoSize = true;
-            this.rbUangKeluar.Location = new System.Drawing.Point(659, 242);
+            this.rbUangKeluar.Location = new System.Drawing.Point(1017, 242);
             this.rbUangKeluar.Name = "rbUangKeluar";
             this.rbUangKeluar.Size = new System.Drawing.Size(89, 19);
             this.rbUangKeluar.TabIndex = 13;
@@ -168,7 +168,7 @@
             // 
             // dtpTanggal
             // 
-            this.dtpTanggal.Location = new System.Drawing.Point(614, 95);
+            this.dtpTanggal.Location = new System.Drawing.Point(972, 95);
             this.dtpTanggal.Name = "dtpTanggal";
             this.dtpTanggal.Size = new System.Drawing.Size(200, 23);
             this.dtpTanggal.TabIndex = 14;
@@ -176,7 +176,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(539, 99);
+            this.label3.Location = new System.Drawing.Point(897, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 15);
             this.label3.TabIndex = 15;
@@ -184,9 +184,9 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(539, 657);
+            this.btnClear.Location = new System.Drawing.Point(535, 429);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(273, 50);
+            this.btnClear.Size = new System.Drawing.Size(273, 77);
             this.btnClear.TabIndex = 16;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -196,7 +196,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(12, 708);
+            this.label5.Location = new System.Drawing.Point(12, 520);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 25);
             this.label5.TabIndex = 17;
@@ -206,7 +206,7 @@
             // 
             this.lbTotalSaldo.AutoSize = true;
             this.lbTotalSaldo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbTotalSaldo.Location = new System.Drawing.Point(150, 708);
+            this.lbTotalSaldo.Location = new System.Drawing.Point(150, 520);
             this.lbTotalSaldo.Name = "lbTotalSaldo";
             this.lbTotalSaldo.Size = new System.Drawing.Size(57, 25);
             this.lbTotalSaldo.TabIndex = 18;
@@ -215,7 +215,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(539, 179);
+            this.label6.Location = new System.Drawing.Point(897, 179);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(54, 15);
             this.label6.TabIndex = 20;
@@ -223,7 +223,7 @@
             // 
             // txtDeskripsi
             // 
-            this.txtDeskripsi.Location = new System.Drawing.Point(614, 176);
+            this.txtDeskripsi.Location = new System.Drawing.Point(972, 176);
             this.txtDeskripsi.Multiline = true;
             this.txtDeskripsi.Name = "txtDeskripsi";
             this.txtDeskripsi.Size = new System.Drawing.Size(200, 60);
@@ -231,9 +231,9 @@
             // 
             // btnLaporan
             // 
-            this.btnLaporan.Location = new System.Drawing.Point(539, 741);
+            this.btnLaporan.Location = new System.Drawing.Point(897, 278);
             this.btnLaporan.Name = "btnLaporan";
-            this.btnLaporan.Size = new System.Drawing.Size(273, 50);
+            this.btnLaporan.Size = new System.Drawing.Size(273, 73);
             this.btnLaporan.TabIndex = 21;
             this.btnLaporan.Text = "Laporan";
             this.btnLaporan.UseVisualStyleBackColor = true;
@@ -243,7 +243,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 803);
+            this.ClientSize = new System.Drawing.Size(1223, 565);
             this.Controls.Add(this.btnLaporan);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtDeskripsi);
